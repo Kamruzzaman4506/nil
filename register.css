@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/register.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.simple-form{
+    text-align: center;
+    margin: 100px 400px;
+}
+#register{
+    width: 100%;
+    background-color:#75767E ;
+    opacity: 0.7;
+    padding: 50px 9px;
+    font-family: sans-serif;
+}
+#text{
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+}
+#button{
+    width: 300px;
+    padding: 9px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.add{
+    height: 50px;
+}
+.button{
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+    border-color:#B7D8DD ;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+h1{
+    font-size: 42px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    margin-left: 100px;
+}
+.email{
+    margin-left: 95px;
+}
+.mobile{
+    margin-left: 94px;
+}
+.address{
+    margin-left: 80px;
+}
+.password{
+    margin-left: 65px;
+}
+.cpassword{
+    margin-left: -12px;
+}

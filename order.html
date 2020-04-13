@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliexpress-BD</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="simple-order">
+        <form action="orders.php" method="POST" class="order left" id="odr">
+            <h1>ORDER HERE</h1>
+            <div class="lbl">
+            <label for="pname" id="label">Product Name</label>
+            </div>
+            <input type="text" name="pname" id="input" placeholder="Enter product name"><br>
+            <div class="lbl">
+            <label for="pname" id="label">Product Model</label>
+            </div>
+            <input type="text" name="pmodel" id="input" placeholder="Enter model"><br>
+            <div class="lbl">
+            <label for="pname" id="label">Quantity</label>
+            </div>
+            <input type="text" name="pquantity" id="input" placeholder="Enter product quantity"><br>
+            <div class="lbl">
+            <label for="pname" id="label">Product Color</label>
+            </div>
+            <input type="text" name="pcolor" id="input" placeholder="Enter product color"><br>
+            <div class="lbl">
+            <label for="pname" id="label">Product Link</label>
+            </div>
+            <input type="text" name="plink" id="input" placeholder="Enter product link"><br>
+            <input type="submit" name="order" value="ORDER" id="btn" class="button">
+        </form>
+        <div class="order right">
+            <p class="welcome">Welcome to Aliexpress-BD :)</p>
+            <p class="rest">Here you can order your product using your product link and your have to give some details about product. We use dolar rate as 1$=87tk. So every product you want to buy here is the dolar rate. You have to pay first to confirm the order.</p>
+        </div>
+    </div>
+  
+    
+</body>
+</html>

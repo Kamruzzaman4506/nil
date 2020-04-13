@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/payment.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.simple-login{
+    position: absolute;
+    text-align: center;
+    margin: 100px 100px;
+    width: 800px;
+    margin-left: 382.5px;
+    overflow: hidden;
+}
+#login{
+    background-color: skyblue;
+    padding: 51px;
+    opacity: 0.7;
+    color: white;
+    height: 300px;
+    float: left;
+    
+}
+.input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color:transparent;
+    outline: none;
+    height: 35px;
+    width: 250px;
+    font-size: 15px;
+    
+}
+#btn{
+    border-radius: 20px;
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background-color:#419EFB ;
+    font-size: 20px;
+    border-color: #0781FC  ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: black;
+    font-size: 15px;
+}
+h1{
+    margin-top: 20px;
+}
+.usr{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+.nmb{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+.code{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    border-color: skyblue;
+    background: #2196f3;
+}
+.order-right{
+    color:black;
+    float: left;
+    width: 300px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    opacity: 0.7;
+
+}
+.rest{
+    margin-top: 10px;
+}

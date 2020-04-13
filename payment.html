@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css" type="text/css">
+</head>
+<body>
+    <div class="simple-login">
+        <form action="payment.php" method="POST" id="login">
+            <p class="usr">Your Name</p><br>
+            <input type="text" name="name" class="input" placeholder="Enter your name"><br>
+            <p class="nmb">Your Number</p><br>
+            <input type="number" name="number" class="input" placeholder="Enter your number"><br>
+            <p class="code">bkash code</p><br>
+            <input type="number" name="code" class="input" placeholder="bkash confirmation code"><br>
+            <input type="submit" name="confirm" value="CONFIRM" id="btn" class="button">
+        </form>
+        <div class="order-right">
+            <h2>bkash: 01521338086</h2>
+            <p class="rest">Before confirm the order you have to complete the payment. After your bkash payment you will get a sms and there will be a code. Input this code to bakash code.</p>
+        </div>
+    </div>
+</body>
+</html>
